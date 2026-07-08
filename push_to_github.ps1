@@ -20,7 +20,16 @@ if (-not $token) {
 
 $owner = "KajalRath"
 $repo = "Creziaa-Website"
-$files = @("index.html", "code.html", "DESIGN.md")
+$files = @(
+    "index.html", 
+    "code.html", 
+    "DESIGN.md",
+    "images/addish_royal_food.png",
+    "images/yuvraj_restaurant.png",
+    "images/yuvraj_dhaba.png",
+    "images/shemrock_preschool.png",
+    "images/pindhan_fashion.png"
+)
 
 foreach ($file in $files) {
     $filePath = Join-Path $PSScriptRoot $file
