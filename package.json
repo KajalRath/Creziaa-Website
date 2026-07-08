@@ -1,0 +1,9 @@
+{
+  "name": "stitch-crezeaa-digital-agency-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "powershell -ExecutionPolicy Bypass -File ./serve.ps1",
+    "start": "powershell -ExecutionPolicy Bypass -File ./serve.ps1"
+  }
+}
