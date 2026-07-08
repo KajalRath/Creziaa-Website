@@ -73,7 +73,7 @@ foreach ($file in $files) {
         $response = Invoke-RestMethod -Uri $apiUrl -Headers $headers -Method Put -Body $jsonBody -ContentType "application/json" -ErrorAction Stop
         Write-Host "Successfully uploaded $file to GitHub!" -ForegroundColor Green
     } catch {
-        Write-Error "Failed to upload $file: $_"
+        Write-Error "Failed to upload ${file}: $_"
     }
     Write-Host ""
 }
